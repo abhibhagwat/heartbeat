@@ -1,0 +1,21 @@
+[0.020s] Invoking command in '/home/bhagwat/ros2_ws/build/heartbeat_node': CMAKE_PREFIX_PATH=/home/bhagwat/ros2_ws/install/heartbeat_node:/opt/ros/dashing:/home/bhagwat/catkin_ws/devel:/opt/ros/melodic /usr/local/bin/cmake --build /home/bhagwat/ros2_ws/build/heartbeat_node -- -j12 -l12
+[0.037s] [ 25%] [32mBuilding CXX object CMakeFiles/heart_exec_RX.dir/src/FM_RX_heartbeat.cpp.o[0m
+[0.038s] [ 75%] Built target heart_exec_TX
+[0.681s] [01m[K/home/bhagwat/ros2_ws/src/heartbeat_node/src/FM_RX_heartbeat.cpp:[m[K In constructor ‘[01m[KMinimalSubscriber::MinimalSubscriber()[m[K’:
+[0.681s] [01m[K/home/bhagwat/ros2_ws/src/heartbeat_node/src/FM_RX_heartbeat.cpp:18:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kglob[m[K’ has both ‘[01m[Kextern[m[K’ and initializer
+[0.681s]        extern int [01;31m[Kglob[m[K = 100.0;
+[0.681s]                   [01;31m[K^~~~[m[K
+[0.683s] [01m[K/home/bhagwat/ros2_ws/src/heartbeat_node/src/FM_RX_heartbeat.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::subscribe_message(std_msgs::msg::Int32_<std::allocator<void> >::SharedPtr) const[m[K’:
+[0.683s] [01m[K/home/bhagwat/ros2_ws/src/heartbeat_node/src/FM_RX_heartbeat.cpp:27:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kglob[m[K’ was not declared in this scope
+[0.683s]        if (local!=[01;31m[Kglob[m[K)
+[0.683s]                   [01;31m[K^~~~[m[K
+[0.684s] [01m[K/home/bhagwat/ros2_ws/src/heartbeat_node/src/FM_RX_heartbeat.cpp:36:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kglob[m[K’ was not declared in this scope
+[0.684s]        [01;31m[Kglob[m[K = local;
+[0.684s]        [01;31m[K^~~~[m[K
+[1.111s] make[2]: *** [CMakeFiles/heart_exec_RX.dir/src/FM_RX_heartbeat.cpp.o] Error 1
+[1.111s] make[1]: *** [CMakeFiles/heart_exec_RX.dir/all] Error 2
+[1.111s] make: *** [all] Error 2
+[1.112s] CMakeFiles/heart_exec_RX.dir/build.make:75: recipe for target 'CMakeFiles/heart_exec_RX.dir/src/FM_RX_heartbeat.cpp.o' failed
+[1.112s] CMakeFiles/Makefile2:111: recipe for target 'CMakeFiles/heart_exec_RX.dir/all' failed
+[1.112s] Makefile:145: recipe for target 'all' failed
+[1.113s] Invoked command in '/home/bhagwat/ros2_ws/build/heartbeat_node' returned '2': CMAKE_PREFIX_PATH=/home/bhagwat/ros2_ws/install/heartbeat_node:/opt/ros/dashing:/home/bhagwat/catkin_ws/devel:/opt/ros/melodic /usr/local/bin/cmake --build /home/bhagwat/ros2_ws/build/heartbeat_node -- -j12 -l12

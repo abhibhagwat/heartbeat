@@ -1,0 +1,10 @@
+[01m[K/home/bhagwat/ros2_ws/src/heartbeat_node/src/FM_RX_heartbeat.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::subscribe_message(std_msgs::msg::Int32_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/home/bhagwat/ros2_ws/src/heartbeat_node/src/FM_RX_heartbeat.cpp:28:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kglob[m[K’ was not declared in this scope
+       if (local!=[01;31m[Kglob[m[K)
+                  [01;31m[K^~~~[m[K
+[01m[K/home/bhagwat/ros2_ws/src/heartbeat_node/src/FM_RX_heartbeat.cpp:37:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kglob[m[K’ was not declared in this scope
+       [01;31m[Kglob[m[K = local;
+       [01;31m[K^~~~[m[K
+make[2]: *** [CMakeFiles/heart_exec_RX.dir/src/FM_RX_heartbeat.cpp.o] Error 1
+make[1]: *** [CMakeFiles/heart_exec_RX.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,14 @@
+[01m[K/home/bhagwat/ros2_ws/src/heartbeat_node/src/FM_RX_heartbeat.cpp:[m[K In constructor ‘[01m[KMinimalSubscriber::MinimalSubscriber()[m[K’:
+[01m[K/home/bhagwat/ros2_ws/src/heartbeat_node/src/FM_RX_heartbeat.cpp:17:7:[m[K [01;31m[Kerror: [m[Kdeclaration of ‘[01m[Kauto i[m[K’ has no initializer
+       [01;31m[Kauto[m[K i;
+       [01;31m[K^~~~[m[K
+[01m[K/home/bhagwat/ros2_ws/src/heartbeat_node/src/FM_RX_heartbeat.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::subscribe_message(std_msgs::msg::Int32_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/home/bhagwat/ros2_ws/src/heartbeat_node/src/FM_RX_heartbeat.cpp:29:18:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ was not declared in this scope
+       if (local!=[01;31m[Ki[m[K)
+                  [01;31m[K^[m[K
+[01m[K/home/bhagwat/ros2_ws/src/heartbeat_node/src/FM_RX_heartbeat.cpp:38:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ was not declared in this scope
+       [01;31m[Ki[m[K = local;
+       [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/heart_exec_RX.dir/src/FM_RX_heartbeat.cpp.o] Error 1
+make[1]: *** [CMakeFiles/heart_exec_RX.dir/all] Error 2
+make: *** [all] Error 2

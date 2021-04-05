@@ -1,0 +1,3 @@
+[01m[K/home/bhagwat/ros2_ws/src/heartbeat_node/src/FM_RX_heartbeat.cpp:9:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Ki[m[K’ initialized and declared ‘[01m[Kextern[m[K’
+ extern auto [01;35m[Ki[m[K = 0.0;
+             [01;35m[K^[m[K

@@ -1,0 +1,38 @@
+[0.023s] Invoking command in '/home/bhagwat/ros2_ws/build/heartbeat_node': CMAKE_PREFIX_PATH=/home/bhagwat/ros2_ws/install/heartbeat_node:/opt/ros/dashing:/home/bhagwat/catkin_ws/devel:/opt/ros/melodic /usr/local/bin/cmake --build /home/bhagwat/ros2_ws/build/heartbeat_node -- -j12 -l12
+[0.043s] [ 50%] [32mBuilding CXX object CMakeFiles/heart_exec.dir/src/FM_TX_heartbeat.cpp.o[0m
+[0.709s] [01m[K/home/bhagwat/ros2_ws/src/heartbeat_node/src/FM_TX_heartbeat.cpp:30:31:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.709s]      rclcpp::Publisher<std_msgs[01;31m[K>[m[K::SharedPtr publisher_;
+[0.709s]                                [01;31m[K^[m[K
+[0.709s] [01m[K/home/bhagwat/ros2_ws/src/heartbeat_node/src/FM_TX_heartbeat.cpp:30:34:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[0.709s]      rclcpp::Publisher<std_msgs>::[01;31m[KSharedPtr[m[K publisher_;
+[0.709s]                                   [01;31m[K^~~~~~~~~[m[K
+[0.710s] [01m[K/home/bhagwat/ros2_ws/src/heartbeat_node/src/FM_TX_heartbeat.cpp:30:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ does not name a type; did you mean ‘[01m[Krcl_publisher_t[m[K’?
+[0.710s]      rclcpp::Publisher<std_msgs>::SharedPtr [01;31m[Kpublisher_[m[K;
+[0.710s]                                             [01;31m[K^~~~~~~~~~[m[K
+[0.711s]                                             [32m[Krcl_publisher_t[m[K
+[0.711s] [01m[K/home/bhagwat/ros2_ws/src/heartbeat_node/src/FM_TX_heartbeat.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::MinimalPublisher()[m[K’:
+[0.711s] [01m[K/home/bhagwat/ros2_ws/src/heartbeat_node/src/FM_TX_heartbeat.cpp:15:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope
+[0.711s]        [01;31m[Kpublisher_[m[K = this->create_publisher<std_msgs::msg::Int32>("counter";
+[0.711s]        [01;31m[K^~~~~~~~~~[m[K
+[0.712s] [01m[K/home/bhagwat/ros2_ws/src/heartbeat_node/src/FM_TX_heartbeat.cpp:15:7:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Krcl_publisher_t[m[K’
+[0.712s]        [01;36m[Kpublisher_[m[K = this->create_publisher<std_msgs::msg::Int32>("counter";
+[0.712s]        [01;36m[K^~~~~~~~~~[m[K
+[0.712s]        [32m[Krcl_publisher_t[m[K
+[0.712s] [01m[K/home/bhagwat/ros2_ws/src/heartbeat_node/src/FM_TX_heartbeat.cpp:15:74:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+[0.713s]        publisher_ = this->create_publisher<std_msgs::msg::Int32>("counter"[01;31m[K;[m[K
+[0.713s]                                                                           [01;31m[K^[m[K
+[0.724s] [01m[K/home/bhagwat/ros2_ws/src/heartbeat_node/src/FM_TX_heartbeat.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::publish_message()[m[K’:
+[0.724s] [01m[K/home/bhagwat/ros2_ws/src/heartbeat_node/src/FM_TX_heartbeat.cpp:26:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope
+[0.724s]        [01;31m[Kpublisher_[m[K->publish(message);
+[0.724s]        [01;31m[K^~~~~~~~~~[m[K
+[0.725s] [01m[K/home/bhagwat/ros2_ws/src/heartbeat_node/src/FM_TX_heartbeat.cpp:26:7:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Krcl_publisher_t[m[K’
+[0.725s]        [01;36m[Kpublisher_[m[K->publish(message);
+[0.725s]        [01;36m[K^~~~~~~~~~[m[K
+[0.725s]        [32m[Krcl_publisher_t[m[K
+[0.867s] CMakeFiles/heart_exec.dir/build.make:75: recipe for target 'CMakeFiles/heart_exec.dir/src/FM_TX_heartbeat.cpp.o' failed
+[0.868s] make[2]: *** [CMakeFiles/heart_exec.dir/src/FM_TX_heartbeat.cpp.o] Error 1
+[0.868s] CMakeFiles/Makefile2:83: recipe for target 'CMakeFiles/heart_exec.dir/all' failed
+[0.868s] make[1]: *** [CMakeFiles/heart_exec.dir/all] Error 2
+[0.868s] make: *** [all] Error 2
+[0.868s] Makefile:145: recipe for target 'all' failed
+[0.869s] Invoked command in '/home/bhagwat/ros2_ws/build/heartbeat_node' returned '2': CMAKE_PREFIX_PATH=/home/bhagwat/ros2_ws/install/heartbeat_node:/opt/ros/dashing:/home/bhagwat/catkin_ws/devel:/opt/ros/melodic /usr/local/bin/cmake --build /home/bhagwat/ros2_ws/build/heartbeat_node -- -j12 -l12

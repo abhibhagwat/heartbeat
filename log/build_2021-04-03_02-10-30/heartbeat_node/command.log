@@ -1,0 +1,6 @@
+Invoking command in '/home/bhagwat/ros2_ws/build/heartbeat_node': CMAKE_PREFIX_PATH=/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/local/bin/cmake /home/bhagwat/ros2_ws/src/heartbeat_node -DCMAKE_INSTALL_PREFIX=/home/bhagwat/ros2_ws/install/heartbeat_node
+Invoked command in '/home/bhagwat/ros2_ws/build/heartbeat_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/local/bin/cmake /home/bhagwat/ros2_ws/src/heartbeat_node -DCMAKE_INSTALL_PREFIX=/home/bhagwat/ros2_ws/install/heartbeat_node
+Invoking command in '/home/bhagwat/ros2_ws/build/heartbeat_node': CMAKE_PREFIX_PATH=/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/local/bin/cmake --build /home/bhagwat/ros2_ws/build/heartbeat_node -- -j12 -l12
+Invoked command in '/home/bhagwat/ros2_ws/build/heartbeat_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/local/bin/cmake --build /home/bhagwat/ros2_ws/build/heartbeat_node -- -j12 -l12
+Invoking command in '/home/bhagwat/ros2_ws/build/heartbeat_node': CMAKE_PREFIX_PATH=/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/local/bin/cmake --install /home/bhagwat/ros2_ws/build/heartbeat_node
+Invoked command in '/home/bhagwat/ros2_ws/build/heartbeat_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/local/bin/cmake --install /home/bhagwat/ros2_ws/build/heartbeat_node

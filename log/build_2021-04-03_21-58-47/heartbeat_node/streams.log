@@ -1,0 +1,17 @@
+[0.017s] Invoking command in '/home/bhagwat/ros2_ws/build/heartbeat_node': CMAKE_PREFIX_PATH=/home/bhagwat/ros2_ws/install/heartbeat_node:/opt/ros/dashing:/home/bhagwat/catkin_ws/devel:/opt/ros/melodic /usr/local/bin/cmake --build /home/bhagwat/ros2_ws/build/heartbeat_node -- -j12 -l12
+[0.038s] [ 75%] [32mBuilding CXX object CMakeFiles/heart_exec_RX.dir/src/FM_RX_heartbeat.cpp.o[0m
+[0.038s] [ 75%] Built target heart_exec_TX
+[0.707s] [01m[K/home/bhagwat/ros2_ws/src/heartbeat_node/src/FM_RX_heartbeat.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::subscribe_message(std_msgs::msg::Int32_<std::allocator<void> >::SharedPtr) const[m[K’:
+[0.707s] [01m[K/home/bhagwat/ros2_ws/src/heartbeat_node/src/FM_RX_heartbeat.cpp:28:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kglob[m[K’ was not declared in this scope
+[0.707s]        if (local!=[01;31m[Kglob[m[K)
+[0.707s]                   [01;31m[K^~~~[m[K
+[0.708s] [01m[K/home/bhagwat/ros2_ws/src/heartbeat_node/src/FM_RX_heartbeat.cpp:37:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kglob[m[K’ was not declared in this scope
+[0.709s]        [01;31m[Kglob[m[K = local;
+[0.709s]        [01;31m[K^~~~[m[K
+[1.166s] CMakeFiles/heart_exec_RX.dir/build.make:75: recipe for target 'CMakeFiles/heart_exec_RX.dir/src/FM_RX_heartbeat.cpp.o' failed
+[1.167s] CMakeFiles/Makefile2:111: recipe for target 'CMakeFiles/heart_exec_RX.dir/all' failed
+[1.167s] make[2]: *** [CMakeFiles/heart_exec_RX.dir/src/FM_RX_heartbeat.cpp.o] Error 1
+[1.167s] Makefile:145: recipe for target 'all' failed
+[1.167s] make[1]: *** [CMakeFiles/heart_exec_RX.dir/all] Error 2
+[1.167s] make: *** [all] Error 2
+[1.167s] Invoked command in '/home/bhagwat/ros2_ws/build/heartbeat_node' returned '2': CMAKE_PREFIX_PATH=/home/bhagwat/ros2_ws/install/heartbeat_node:/opt/ros/dashing:/home/bhagwat/catkin_ws/devel:/opt/ros/melodic /usr/local/bin/cmake --build /home/bhagwat/ros2_ws/build/heartbeat_node -- -j12 -l12

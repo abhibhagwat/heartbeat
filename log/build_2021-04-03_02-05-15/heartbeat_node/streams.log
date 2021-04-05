@@ -1,0 +1,54 @@
+[0.015s] Invoking command in '/home/bhagwat/ros2_ws/build/heartbeat_node': CMAKE_PREFIX_PATH=/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/local/bin/cmake /home/bhagwat/ros2_ws/src/heartbeat_node -DCMAKE_INSTALL_PREFIX=/home/bhagwat/ros2_ws/install/heartbeat_node
+[0.142s] -- The C compiler identification is GNU 7.5.0
+[0.235s] -- The CXX compiler identification is GNU 7.5.0
+[0.244s] -- Detecting C compiler ABI info
+[0.296s] -- Detecting C compiler ABI info - done
+[0.306s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.306s] -- Detecting C compile features
+[0.306s] -- Detecting C compile features - done
+[0.311s] -- Detecting CXX compiler ABI info
+[0.363s] -- Detecting CXX compiler ABI info - done
+[0.371s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.371s] -- Detecting CXX compile features
+[0.371s] -- Detecting CXX compile features - done
+[0.374s] -- Found ament_cmake: 0.7.6 (/opt/ros/dashing/share/ament_cmake/cmake)
+[0.403s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[0.403s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.617s] -- Found rclcpp: 0.7.15 (/opt/ros/dashing/share/rclcpp/cmake)
+[0.640s] -- Found rosidl_adapter: 0.7.10 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[0.679s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[0.681s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.682s] -- Looking for pthread.h
+[0.737s] -- Looking for pthread.h - found
+[0.737s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.801s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.801s] -- Looking for pthread_create in pthreads
+[0.847s] -- Looking for pthread_create in pthreads - not found
+[0.847s] -- Looking for pthread_create in pthread
+[0.907s] -- Looking for pthread_create in pthread - found
+[0.908s] -- Found Threads: TRUE  
+[0.946s] -- Found geometry_msgs: 0.7.0 (/opt/ros/dashing/share/geometry_msgs/cmake)
+[0.958s] -- Found ament_lint_auto: 0.7.12 (/opt/ros/dashing/share/ament_lint_auto/cmake)
+[1.047s] -- Added test 'copyright' to check for copyright in CMake / C / C++ / Python code
+[1.048s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.048s] -- Configured cppcheck include dirs: 
+[1.049s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.049s] -- Added test 'lint_cmake' to check CMake code style
+[1.050s] -- Added test 'uncrustify' to check C / C++ code style
+[1.051s] -- Added test 'xmllint' to check XML markup files
+[1.052s] -- Configuring done
+[1.054s] CMake Error at CMakeLists.txt:39 (add_executable):
+[1.054s]   Cannot find source file:
+[1.054s] 
+[1.054s]     src/cpp_pub_spiral.cpp
+[1.054s] 
+[1.054s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .h .hh .h++
+[1.054s]   .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .ispc
+[1.054s] 
+[1.054s] 
+[1.055s] CMake Error at CMakeLists.txt:39 (add_executable):
+[1.055s]   No SOURCES given to target: cpp_pub_spiral
+[1.055s] 
+[1.055s] 
+[1.055s] CMake Generate step failed.  Build files cannot be regenerated correctly.
+[1.058s] Invoked command in '/home/bhagwat/ros2_ws/build/heartbeat_node' returned '1': CMAKE_PREFIX_PATH=/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/local/bin/cmake /home/bhagwat/ros2_ws/src/heartbeat_node -DCMAKE_INSTALL_PREFIX=/home/bhagwat/ros2_ws/install/heartbeat_node
