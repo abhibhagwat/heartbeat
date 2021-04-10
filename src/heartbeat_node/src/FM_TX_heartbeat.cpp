@@ -12,34 +12,33 @@ class MinimalPublisher : public rclcpp::Node
     MinimalPublisher()
     : Node("heart_exec_node_TX")
     {
-      publisher_ = this->create_publisher<std_msgs::msg::Int32>("counter");
-      i = 0.0;
+      publisher_ = this->create_publisher<std_msgs::msg::Int32>("counter", 10);
+      i = 0;
       timer_ = this->create_wall_timer(40ms, std::bind(&MinimalPublisher::publish_message, this));
     }
 
   private:
     void publish_message()
     {
-      //auto message = std_msgs::msg::Int32();
-      auto message = std::make_shared<std_msgs::msg::Int32>();
+      auto message = std_msgs::msg::Int32();
       if (i<=9)
       {
-      message->data = 0+i;
+      message.data = i;
       //RCLCPP_INFO(this->get_logger(), "Sending heartbeat counter: '%f'", message->data);
-      std::cout<<"Sending heartbeat counter:  "<< message->data<<"\n";
+      std::cout<<"Sending heartbeat counter:  "<< message.data<<"\n";
       publisher_->publish(message);
 
       i += 1;
       }
       else
       {
-        i = 0.0;
+        i = 0;
       }
 
     }
     rclcpp::TimerBase::SharedPtr timer_;
     rclcpp::Publisher<std_msgs::msg::Int32>::SharedPtr publisher_;
-    float i;
+    int i;
 };
 
 int main(int argc, char * argv[])

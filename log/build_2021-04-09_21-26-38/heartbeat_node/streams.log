@@ -1,0 +1,21 @@
+[0.120s] Invoking command in '/home/bhagwat/ros2_ws/build/heartbeat_node': CMAKE_PREFIX_PATH=/home/bhagwat/ros2_ws/install/heartbeat_node:/opt/ros/dashing:/home/bhagwat/catkin_ws/devel:/opt/ros/melodic /usr/local/bin/cmake --build /home/bhagwat/ros2_ws/build/heartbeat_node -- -j12 -l12
+[0.297s] [ 50%] [32mBuilding CXX object CMakeFiles/heart_exec_TX.dir/src/FM_TX_heartbeat.cpp.o[0m
+[9.503s] [100%] [32m[1mLinking CXX executable heart_exec_TX[0m
+[10.068s] [100%] Built target heart_exec_TX
+[10.096s] Invoked command in '/home/bhagwat/ros2_ws/build/heartbeat_node' returned '0': CMAKE_PREFIX_PATH=/home/bhagwat/ros2_ws/install/heartbeat_node:/opt/ros/dashing:/home/bhagwat/catkin_ws/devel:/opt/ros/melodic /usr/local/bin/cmake --build /home/bhagwat/ros2_ws/build/heartbeat_node -- -j12 -l12
+[10.196s] Invoking command in '/home/bhagwat/ros2_ws/build/heartbeat_node': CMAKE_PREFIX_PATH=/home/bhagwat/ros2_ws/install/heartbeat_node:/opt/ros/dashing:/home/bhagwat/catkin_ws/devel:/opt/ros/melodic /usr/local/bin/cmake --install /home/bhagwat/ros2_ws/build/heartbeat_node
+[10.217s] -- Install configuration: ""
+[10.220s] -- Installing: /home/bhagwat/ros2_ws/install/heartbeat_node/lib/heartbeat_node/heart_exec_TX
+[10.224s] -- Set runtime path of "/home/bhagwat/ros2_ws/install/heartbeat_node/lib/heartbeat_node/heart_exec_TX" to ""
+[10.225s] -- Up-to-date: /home/bhagwat/ros2_ws/install/heartbeat_node/share/ament_index/resource_index/package_run_dependencies/heartbeat_node
+[10.225s] -- Up-to-date: /home/bhagwat/ros2_ws/install/heartbeat_node/share/ament_index/resource_index/parent_prefix_path/heartbeat_node
+[10.225s] -- Up-to-date: /home/bhagwat/ros2_ws/install/heartbeat_node/share/heartbeat_node/environment/ament_prefix_path.sh
+[10.226s] -- Up-to-date: /home/bhagwat/ros2_ws/install/heartbeat_node/share/heartbeat_node/environment/path.sh
+[10.226s] -- Up-to-date: /home/bhagwat/ros2_ws/install/heartbeat_node/share/heartbeat_node/local_setup.bash
+[10.227s] -- Up-to-date: /home/bhagwat/ros2_ws/install/heartbeat_node/share/heartbeat_node/local_setup.sh
+[10.227s] -- Up-to-date: /home/bhagwat/ros2_ws/install/heartbeat_node/share/heartbeat_node/local_setup.zsh
+[10.228s] -- Up-to-date: /home/bhagwat/ros2_ws/install/heartbeat_node/share/ament_index/resource_index/packages/heartbeat_node
+[10.228s] -- Up-to-date: /home/bhagwat/ros2_ws/install/heartbeat_node/share/heartbeat_node/cmake/heartbeat_nodeConfig.cmake
+[10.230s] -- Up-to-date: /home/bhagwat/ros2_ws/install/heartbeat_node/share/heartbeat_node/cmake/heartbeat_nodeConfig-version.cmake
+[10.235s] -- Up-to-date: /home/bhagwat/ros2_ws/install/heartbeat_node/share/heartbeat_node/package.xml
+[10.236s] Invoked command in '/home/bhagwat/ros2_ws/build/heartbeat_node' returned '0': CMAKE_PREFIX_PATH=/home/bhagwat/ros2_ws/install/heartbeat_node:/opt/ros/dashing:/home/bhagwat/catkin_ws/devel:/opt/ros/melodic /usr/local/bin/cmake --install /home/bhagwat/ros2_ws/build/heartbeat_node
